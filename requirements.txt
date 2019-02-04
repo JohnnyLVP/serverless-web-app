@@ -1,2 +1,4 @@
-django
-zappa
+django==2.1.5
+zappa==0.47.1
+boto3==1.9.86
+django-storages==1.7.1
