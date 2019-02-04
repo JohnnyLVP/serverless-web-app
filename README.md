@@ -5,9 +5,9 @@ Serverless Web Application using AWS
 
 * Instalar virtualenv
 
-´´´console
+```console
 pip install virtualenv
-´´´ 
+```
 
 * Modificar Archivo *run-init.bat*, ya que hay que cambiar la ruta del ejecutor de Python3.6 de la maquina.
 * Ejecutar *run-init.bat* que hara lo siguiente:
@@ -16,7 +16,7 @@ pip install virtualenv
 	* Instalara las librerias requeridas
 
 * Crear la carpeta *.aws*, la el archivo *credentials*, con el siguiente contenido:
-'''python
+```python
 aws_access_key_id = '<Creada en su cuenta AWS>'
 aws_secret_access_key = '<Creada en su cuenta AWS>'
-'''
+```
